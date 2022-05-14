@@ -1,0 +1,99 @@
+
+.backdrop-active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.backdrop-inactive {
+    display: none;
+}
+
+
+.signup-page {
+    z-index: 200;
+    position: absolute;
+    top: -90px;
+    left: -50px;
+    margin-right: 0px;
+    width: 570px;
+    padding-left: 20px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%), 0 8px 16px rgb(0 0 0 / 20%);
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    height: 500px;
+}
+
+p {
+    color: black;
+    font-size: 17px;
+}
+
+.signup-line {
+    border-bottom: 2px solid #dadde1;
+    padding: 1px 5px;
+    margin-bottom: 20px;
+}
+
+.signup-login {
+    width: 380px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 530px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.signup-login:focus {
+    outline: none;
+    border: 1.5px solid blue;
+}
+
+.signup-buttons {
+    text-align: center;
+    margin: 10px;
+    padding: 20px
+}
+
+.signup-button {
+    margin: 10px;
+    margin-bottom: 0px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    width: 120px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.signup-button:active {
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.signup-cancel-button {
+    background-color: #DC143C
+}
+
+.signup-cancel-button:hover {
+    background-color: #FA8072
+}
+
+.signup-submit-button {
+    background-color: #166fa5;
+}
+
+.signup-submit-button:hover {
+    background-color: #87CEEB
+}
+
+.signup-name {
+    width: 260px;
+}
