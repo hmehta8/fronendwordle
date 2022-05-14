@@ -13,8 +13,8 @@ class Dashboard extends Component {
   constructor(props) {  
     super(props);
     this.pubnub = new PubNubReact({
-      publishKey: "pub-c-07633095-9aa9-44c5-9593-f3dca6a78c4b", 
-      subscribeKey: "sub-c-b890aa12-b1aa-11ec-ac48-7ec486788b75"    
+      publishKey: "***", 
+      subscribeKey: "***"    
     });
     
     this.state = {
